@@ -6,7 +6,7 @@ pkg.link() {
 
 pkg.install() {
     # Install PhpStorm
-    bash $PKG_PATH/run.sh "$ELLIPSIS_SRC"
+    bash $PKG_PATH/run.sh "$ELLIPSIS_SRC" "$PKG_PATH"
 }
 
 pkg.pull() {
